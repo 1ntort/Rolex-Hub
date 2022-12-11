@@ -54,7 +54,7 @@ TextButton.TextWrapped = true
 
 -- Scripts:
 
-local function EELHJM_fake_script() -- TextButton.LocalScript 
+local function MainScript()
 	local script = Instance.new('LocalScript', TextButton)
 
 	local function Write(text, time)
@@ -89,6 +89,7 @@ local function EELHJM_fake_script() -- TextButton.LocalScript
 	end)
 	
 	local function Init()
+		Write("This script is in-development. Bye bye!", 0.1)
 		coroutine.resume(TweenLoading1)
 		coroutine.resume(TweenButton1)
 		script.Parent.Parent.Parent:Destroy()
@@ -129,11 +130,12 @@ local function EELHJM_fake_script() -- TextButton.LocalScript
 			Write("Lets get you iced out!", 0.1)
 			wait(0.5)
 			Write("Rayfield made by Sirius.", 0.075)
+			wait(0.5)
 			Init()
 		end
 	end)
 end
-coroutine.wrap(EELHJM_fake_script)()
+coroutine.wrap(MainScript)()
 
 if syn and not is_sirhurt_closure then
 	syn.protect(RolexHub)
