@@ -89,9 +89,13 @@ local function MainScript()
 	end)
 	
 	local function Init()
+		local IsDev = getgenv().IsDev ~= nil -- If exists, then returns true.
 		Write("This script is in-development. Bye bye!", 0.1)
 		coroutine.resume(TweenLoading1)
 		coroutine.resume(TweenButton1)
+		if IsDev then
+			loadfile("RolexHub/Main.lua")
+		end
 		script.Parent.Parent.Parent:Destroy()
 	end
 	
