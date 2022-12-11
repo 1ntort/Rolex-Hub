@@ -2,7 +2,7 @@
 
 Gui Converted By gui2lua (https://www.roblox.com/library/1343400903/Gui-to-Lua-Converter-Revamped)
 
-Rayfield Library (https://github.com/shlexware/Rayfield) by Sirius (https://discord.gg/sirius)
+Rayfield Library (https://github.com/shlexware/Rayfield) by Sirius (https://discord.gg/sirius) -- Coming Next Update
 
 Loading Gui by me
 
