@@ -94,7 +94,7 @@ local function MainScript()
 		coroutine.resume(TweenLoading1)
 		coroutine.resume(TweenButton1)
 		if IsDev then
-			loadfile("RolexHub/Main.lua")
+			loadfile("RolexHub/Main.txt")
 		end
 		script.Parent.Parent.Parent:Destroy()
 	end
