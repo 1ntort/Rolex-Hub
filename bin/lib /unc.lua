@@ -1,3 +1,5 @@
+-- Editted from UNC checker (https://github.com/unified-naming-convention/NamingStandard/blob/main/UNCCheckEnv.lua)
+
 local passes, fails, undefined = 0, 0, 0
 local running, working = 0, {}
 
