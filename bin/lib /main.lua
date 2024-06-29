@@ -35,3 +35,5 @@ do
 	end
 end
 
+function module.Init(key : string) : boolean
+	
